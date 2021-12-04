@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Matter";
+  src: url("../public/fonts/Matter-Regular.woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "RaglanSans";
+  src: url("../public/fonts/RaglanSans.woff2");
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: RaglanSans, sans-serif;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #fff;
+}
+
+.wrapper {
+  max-width: 1200px;
+}
