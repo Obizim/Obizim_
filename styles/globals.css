@@ -13,11 +13,23 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: RaglanSans, sans-serif;
-  background-color: rgba(0, 0, 0, 0.9);
+  font-family: Matter, sans-serif;
+  background-color: rgba(30, 30, 36, 5);
   color: #fff;
 }
 
 .wrapper {
   max-width: 1200px;
+}
+
+.number {
+  color: rgba(30, 30, 36, 5);
+  z-index: -10;
+  pointer-events: none;
+  user-select: none;
+  text-shadow:
+   -1px -1px 0 rgba(107, 114, 128, 1),  
+    1px -1px 0 rgba(107, 114, 128, 1),
+    -1px 1px 0 rgba(107, 114, 128, 1),
+     1px 1px 0 rgba(107, 114, 128, 1);
 }

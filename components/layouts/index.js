@@ -4,7 +4,7 @@ const Layouts = ({ children }) => {
   return (
     <div>
       <Nav />   
-      <main className="pt-48 wrapper mx-auto px-[15px]">{children}</main>
+      <main className="pt-40 md:pt-48 wrapper mx-auto px-[15px]">{children}</main>
     </div>
   );
 };
