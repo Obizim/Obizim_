@@ -8,7 +8,7 @@ const Nav = () => {
   }
 
   return (
-    <header className="fixed w-full">
+    <header className="fixed w-full z-30">
       <nav className="wrapper mx-[15px] xl:mx-auto flex justify-between items-center bg-header-bg border border-header_bg mt-5 rounded-lg px-4 py-2">
         <h2 className="font-bold text-3xl">Oz.</h2>
           <button className="relative text-black w-12 h-12 sm:w-14 sm:h-14 focus:outline-none bg-white rounded-full" onClick={showNav}>
