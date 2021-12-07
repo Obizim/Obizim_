@@ -11,6 +11,7 @@
 
 *,*::before,*::after {
   scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {

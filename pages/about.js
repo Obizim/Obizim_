@@ -1,28 +1,32 @@
-import Head from "next/head";
 import Image from "next/image";
-import Card from "../components/card";
 
-export default function Home() {
+const About = () => {
   return (
     <div>
-      <Head>
-        <title>Frontend Developer - Obi Zimuzo</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <section className="space-y-3">
-        <p className="text-2xl uppercase text-gray-500 tracking-widest">
-          Hello, I'm Zimuzo Obi
+      <section className="space-y-10">
+        <p className="text-4xl md:text-6xl xl:text-7xl leading-normal w-full max-w-4xl">
+          Hello! I'm Zimuzo Obi.
         </p>
-        <p className="text-4xl md:text-6xl xl:text-7xl leading-none w-full max-w-4xl tracking-tighter">
-          frontend Developer, creating great & accesible user interfaces with
-          sweet experiences.
+        <p className="text-xl text-gray-500 w-full lg:w-9/12">
+          I'm a frontend developer,from Nigeria building applications focusing
+          on creating great user interfaces and good user experiences that are
+          equally accesible. I strongly believe in keeping things simple and
+          minimal yet so functional.
         </p>
+        <a
+          href="https://docs.google.com/document/d/10a6I0lJOP3cDdR3cy7X9NHNlZdXoE6nOC3xWAGGjds4"
+          target="blank"
+          className="inline-block text-lg border-b border-header_bg py-2 pr-6"
+        >
+          Check out my Résumé
+        </a>
       </section>
 
       <section className="sm:mt-32 mt-24">
         <div className="relative space-y-6">
-          <p className="text-2xl text-gray-300 w-max uppercase tracking-widest">See my works</p>
+          <p className="text-2xl text-gray-300 w-max uppercase tracking-widest">
+            Skills
+          </p>
           <Image
             src="/images/underline.svg"
             width="500px"
@@ -31,20 +35,28 @@ export default function Home() {
             className="absolute bottom-0 pointer-events-none select-none"
           />
           <p className="text-lg sm:w-1/2">
-            I work on projects to practice stuffs I learn and here are some of
-            the featured projects
+            Over my journey on this path, I have learnt and acquired some
+            technical skills to work with.
           </p>
-        </div>
-
-        <div className="my-10">
-          <Card />
-          <Card />
-          <Card />
+          <div className="mt-10 text-lg">
+            <div className="list-disc list-inside flex flex-col space-y-4 sm:space-y-0 sm:flex-row sm:space-x-20">
+              <ul className="list-disc list-inside space-y-4">
+                <li>HTML / CSS (Sass)</li>
+                <li>Bootstrap / Tailwind Css</li>
+              </ul>
+              <ul className="list-disc list-inside space-y-4">
+                <li>JavaScript</li>
+                <li>React.js / Next.js</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </section>
 
       <div className="sm:mt-32 mt-24 relative space-y-6">
-        <p className="text-2xl text-gray-300 w-max uppercase tracking-widest">Get in touch</p>
+        <p className="text-2xl text-gray-300 w-max uppercase tracking-widest">
+          Get in touch
+        </p>
         <Image
           src="/images/underline.svg"
           width="500px"
@@ -53,12 +65,8 @@ export default function Home() {
           className="absolute bottom-0 pointer-events-none select-none"
         />
         <p className="text-lg sm:w-1/2">
-          Want to connect with me or collaborate on projects together? Checkout
-          my <a
-            href="https://docs.google.com/document/d/10a6I0lJOP3cDdR3cy7X9NHNlZdXoE6nOC3xWAGGjds4"
-            target="blank"
-            className="bg-white text-black py-1 px-2 inline-block cursor-pointer capitalize"> Résumé
-          </a> or connect with me online
+          Want to connect with me or collaborate on projects together? Reach out 
+          or connect with me online
         </p>
 
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center space-y-5 sm:space-y-0 py-10">
@@ -120,4 +128,6 @@ export default function Home() {
       </div>
     </div>
   );
-}
+};
+
+export default About;
