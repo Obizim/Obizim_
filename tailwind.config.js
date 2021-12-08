@@ -4,11 +4,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      fontFamily: {
-        'RaglanSans': ['RaglanSans', 'sans-serif'],
-      },
       backgroundColor: {
-        'header-bg': 'rgba(30, 30, 36, 3)'
+        'header-bg': 'rgba(30, 30, 36, 3)',
+        trial: 'rgba(0, 0, 0, 0.1)'
       },
       borderColor: {
         header_bg: 'rgba(255, 255, 255, 0.1)'

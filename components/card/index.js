@@ -1,11 +1,14 @@
-const Card = () => {
+const Card = ({data}) => {
   return (
-    <div className="relative border-b border-header_bg flex justify-between items-end py-8 cursor-pointer">
+    <a href={data.url} target="blank" className="hover:bg-trial relative border-b border-header_bg flex justify-between items-end py-8 cursor-pointer">
       <div className="flex items-end space-x-2">
-        <p className="number text-2xl self-start italic">01.</p>
-        <p className="lg:text-6xl text-3xl font-RaglanSans">FLAXO BOOKSTORE</p>
+        <p className="number text-2xl self-start">0{data.id}.</p>
+        <div className="space-y-4 text-lg">
+        <h2 className="lg:text-6xl text-3xl">{data.title}</h2>
+        <p>{data.description}</p>
+        </div>
       </div>
-    </div>
+    </a>
   );
 };
 

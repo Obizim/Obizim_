@@ -4,7 +4,6 @@ import { useState } from "react";
 
 const Nav = () => {
   const [openNav, setOpenNav] = useState(false);
-
   const showNav = () => {
     setOpenNav(!openNav);
   };
@@ -57,12 +56,15 @@ const Nav = () => {
           <div className="flex flex-col justify-center">
             <ul className="space-y-3 text-xl">
               <li className="hover:underline" onClick={showNav}>
-                <Link href="/about">About Me</Link>
+                <Link href="/about">
+                  <a onClick={showNav}>About Me</a>
+                </Link>
               </li>
-              <li className="hover:underline" onClick={showNav}>
+              <li className="hover:underline">
                 <a
                   href="https://docs.google.com/document/d/10a6I0lJOP3cDdR3cy7X9NHNlZdXoE6nOC3xWAGGjds4"
                   target="blank"
+                  onClick={showNav}
                 >
                   Résumé
                 </a>

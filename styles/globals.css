@@ -3,11 +3,6 @@
   src: url("../public/fonts/Matter-Regular.woff");
   font-display: swap;
 }
-@font-face {
-  font-family: "RaglanSans";
-  src: url("../public/fonts/RaglanSans.woff2");
-  font-display: swap;
-}
 
 *,*::before,*::after {
   scroll-behavior: smooth;
