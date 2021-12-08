@@ -5,14 +5,11 @@ const About = () => {
   return (
     <div>
       <Head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Zimuzo Obi - About me</title>
       </Head>
 
       <section className="space-y-10">
-        <p className="text-4xl md:text-6xl xl:text-7xl leading-none tracking-tighter w-full max-w-4xl">
+        <p className="text-4xl md:text-6xl xl:text-7xl leading-snug tracking-normal w-full max-w-4xl">
           hello! my name is Zimuzo Obi.
         </p>
         <div className="sm:text-xl text-lg text-gray-500 w-full lg:w-9/12 space-y-4">
@@ -24,13 +21,14 @@ const About = () => {
           </p>
 
           <p>
-            Tech aside, I love watching movies / tv series or reading books (fictions mostly)
+            Tech aside, I love watching movies / tv series or reading books
+            (fictions mostly)
           </p>
         </div>
         <a
-          href="https://docs.google.com/document/d/10a6I0lJOP3cDdR3cy7X9NHNlZdXoE6nOC3xWAGGjds4"
+          href="https://docs.google.com/document/d/10a6I0lJOP3cDdR3cy7X9NHNlZdXoE6nOC3xWAGGjds4/edit?usp=sharing"
           target="blank"
-          className="inline-block text-lg border-b border-header_bg py-1 pr-6"
+          className="inline-block text-lg border-b border-white py-1 pr-2"
         >
           Check out my Résumé
         </a>
@@ -97,11 +95,11 @@ const About = () => {
             <p>obizimuzo@gmail.com</p>
           </a>
 
-          <div className="flex space-x-4">
+          <div className="flex space-x-6">
             <a
               href="https://twitter.com/Obizim_"
               target="blank"
-              className="text-xl flex items-center space-x-2"
+              className="text-lg flex items-center space-x-2"
             >
               <Image
                 src="/images/twitter.svg"
@@ -114,7 +112,7 @@ const About = () => {
             <a
               href="https://github.com/Obizim"
               target="blank"
-              className="text-xl flex items-center space-x-2"
+              className="text-lg flex items-center space-x-2"
             >
               <Image
                 src="/images/github.svg"
@@ -127,7 +125,7 @@ const About = () => {
             <a
               href="https://www.linkedin.com/in/obizim/"
               target="blank"
-              className="text-xl flex items-center space-x-2"
+              className="text-lg flex items-center space-x-2"
             >
               <Image
                 src="/images/linkedin.svg"
