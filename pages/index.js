@@ -17,13 +17,9 @@ export default function Home() {
           frontend Developer from Nigeria, creating great & accesible user
           interfaces with sweet experiences.
         </p>
-
-        <div className="flex items-center space-x-4">
-          <span className="h-0.5 w-1/4 bg-gray-500"></span>
-          <Link href="/about">
-            <a className="text-lg">About me</a>
-          </Link>
-        </div>
+        <Link href="/about">
+          <a className="inline-block text-lg border-b border-white py-1 pr-2">Know more about me</a>
+        </Link>
       </section>
 
       <section className="sm:mt-32 mt-24">
@@ -62,8 +58,8 @@ export default function Home() {
           my <a
             href="https://docs.google.com/document/d/10a6I0lJOP3cDdR3cy7X9NHNlZdXoE6nOC3xWAGGjds4/edit?usp=sharing"
             target="blank"
-            className="border-b border-white -py-2 inline-block cursor-pointer capitalize"> Résumé
-          </a> or connect with me online
+            className="border-b border-white -py-2 inline-block cursor-pointer capitalize"
+          > Résumé </a> or connect with me online
         </p>
 
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center space-y-5 sm:space-y-0 py-10">
