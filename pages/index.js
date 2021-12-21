@@ -13,7 +13,7 @@ export default function Home() {
       <img
         src="/images/zim.jpg"
         alt="My face"
-        className="w-24 h-24 rounded-full my-5 border-2 border-gray-500"
+        className="w-20 h-20 rounded-full my-5 border-2 border-gray-500 filter grayscale"
       />
       <section className="space-y-4">
         <h1 className="text-2xl text-gray-500 mt-8">Hey - I'm Zimuzo Obi</h1>

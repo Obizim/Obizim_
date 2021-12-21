@@ -26,7 +26,7 @@ const About = () => {
         </a></Link>
       </div>
 
-      <section className="space-y-8">
+      <section className="space-y-8 mt-12">
         <p className="text-4xl tracking-tighter w-full max-w-4xl">
           Hey - I'm Zimuzo Obi
         </p>
