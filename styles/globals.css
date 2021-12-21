@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "Matter";
-  src: url("../public/fonts/Matter-Regular.woff");
+  font-family: "UntitledSans";
+  src: url("../public/fonts/UntitledSans-Regular.woff");
   font-display: swap;
 }
 
@@ -13,13 +13,13 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Matter, sans-serif;
+  font-family: UntitledSans, sans-serif;
   background-color: rgba(30, 30, 36, 5);
   color: #fff;
 }
 
 .wrapper {
-  max-width: 1200px;
+  max-width: 1000px;
 }
 
 .number {

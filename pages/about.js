@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Head from "next/head";
+import Contact from "../components/contact";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -8,11 +10,27 @@ const About = () => {
         <title>Zimuzo Obi - About me</title>
       </Head>
 
-      <section className="space-y-10">
-        <p className="text-4xl md:text-6xl xl:text-7xl leading-snug tracking-normal w-full max-w-4xl">
-          hello! my name is Zimuzo Obi.
+      <div className="fixed top-6 left-2 lg:left-6 z-50">
+        <Link href="/"> 
+        <a
+          className="clear block w-6 text-white"
+        >
+          <svg viewBox="0 0 24 24" stroke="currentColor">
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M10 19l-7-7m0 0l7-7m-7 7h18"
+            ></path>
+          </svg>
+        </a></Link>
+      </div>
+
+      <section className="space-y-8">
+        <p className="text-4xl tracking-tighter w-full max-w-4xl">
+          Hey - I'm Zimuzo Obi
         </p>
-        <div className="sm:text-xl text-lg text-gray-500 w-full lg:w-9/12 space-y-4">
+        <div className="text-gray-500 w-full lg:w-9/12 space-y-4">
           <p>
             I'm a frontend developer, from Nigeria building applications
             focusing on creating great user interfaces and good user experiences
@@ -28,9 +46,8 @@ const About = () => {
         <a
           href="https://docs.google.com/document/d/10a6I0lJOP3cDdR3cy7X9NHNlZdXoE6nOC3xWAGGjds4/edit?usp=sharing"
           target="blank"
-          className="inline-block text-lg border-b border-white py-1 pr-2"
-        >
-          Check out my Résumé
+          className="inline-block">
+          Check out my Resume
         </a>
       </section>
 
@@ -46,11 +63,11 @@ const About = () => {
             alt="A text underline svg"
             className="absolute bottom-0 pointer-events-none select-none"
           />
-          <p className="text-lg sm:w-1/2">
+          <p className="sm:w-1/2">
             Over my journey on this path, I have learnt and acquired some
             technical skills to work with.
           </p>
-          <div className="mt-10 text-lg">
+          <div className="mt-10">
             <div className="list-disc list-inside flex flex-col space-y-4 sm:space-y-0 sm:flex-row sm:space-x-20">
               <ul className="list-disc list-inside space-y-4">
                 <li>HTML / CSS (Sass)</li>
@@ -65,79 +82,7 @@ const About = () => {
         </div>
       </section>
 
-      <div className="sm:mt-32 mt-24 relative space-y-6">
-        <p className="text-2xl text-gray-300 w-max uppercase tracking-widest">
-          Get in touch
-        </p>
-        <Image
-          src="/images/underline.svg"
-          width="500px"
-          height="40px"
-          alt="A text underline svg"
-          className="absolute bottom-0 pointer-events-none select-none"
-        />
-        <p className="text-lg sm:w-1/2">
-          Want to connect with me or collaborate on projects together? Reach out
-          or connect with me online
-        </p>
-
-        <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center space-y-5 sm:space-y-0 py-10">
-          <a
-            href="mailto:obizimuzo@gmail.com"
-            className="text-2xl flex items-center space-x-2"
-          >
-            <Image
-              src="/images/paper-plane.svg"
-              alt="Paper Plane icon"
-              width="20px"
-              height="20px"
-            />
-            <p>obizimuzo@gmail.com</p>
-          </a>
-
-          <div className="flex space-x-6">
-            <a
-              href="https://twitter.com/Obizim_"
-              target="blank"
-              className="text-lg flex items-center space-x-2"
-            >
-              <Image
-                src="/images/twitter.svg"
-                alt="twitter icon"
-                width="20px"
-                height="20px"
-              />
-              <p>Twitter</p>
-            </a>
-            <a
-              href="https://github.com/Obizim"
-              target="blank"
-              className="text-lg flex items-center space-x-2"
-            >
-              <Image
-                src="/images/github.svg"
-                alt="github icon"
-                width="20px"
-                height="20px"
-              />
-              <p>Github</p>
-            </a>
-            <a
-              href="https://www.linkedin.com/in/obizim/"
-              target="blank"
-              className="text-lg flex items-center space-x-2"
-            >
-              <Image
-                src="/images/linkedin.svg"
-                alt="linkedin icon"
-                width="20px"
-                height="20px"
-              />
-              <p>LinkedIn</p>
-            </a>
-          </div>
-        </div>
-      </div>
+      <Contact />
     </div>
   );
 };
