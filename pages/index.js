@@ -24,9 +24,9 @@ export default function Home() {
         <p className="text-lg text-gray-500"> I try to write sometimes, so check out <a
             href="https://obizim.hashnode.dev"
             target="blank"
-            className="inline-block text-white"
+            className="inline-block text-white border-b"
           > my blog </a> or <Link href="/about">
-            <a className="inline-block text-white"> know more about me</a>
+            <a className="inline-block text-white border-b"> know more about me.</a>
           </Link>
         </p>
       </section>
@@ -36,14 +36,14 @@ export default function Home() {
           <p className="text-2xl text-gray-500 w-max uppercase">See my works</p>
           <Image
             src="/images/underline.svg"
-            width="500px"
+            width="300px"
             height="40px"
             alt="A text underline svg"
             className="absolute bottom-0 pointer-events-none select-none"
           />
           <p className="text-lg sm:w-1/2">
             I work on projects to practice stuffs I learn and here are some of
-            the featured projects
+            the featured projects.
           </p>
         </div>
 

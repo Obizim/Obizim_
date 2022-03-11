@@ -6,7 +6,7 @@ const Contact = () => {
       <p className="text-2xl text-gray-500 w-max uppercase">Get in touch</p>
       <Image
         src="/images/underline.svg"
-        width="500px"
+        width="300px"
         height="40px"
         alt="A text underline svg"
         className="absolute bottom-0 pointer-events-none select-none"
@@ -31,7 +31,7 @@ const Contact = () => {
 
         <div className="flex space-x-6">
           <a
-            href="https://twitter.com/Obizim_"
+            href="https://twitter.com/zimway_"
             target="blank"
             className="text-lg flex items-center space-x-2"
           >

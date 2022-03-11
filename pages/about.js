@@ -10,10 +10,12 @@ const About = () => {
         <title>Zimuzo Obi - About me</title>
       </Head>
 
-      <div className="fixed top-6 left-2 lg:left-6 z-50">
+      <section className="space-y-8 mt-12 relative">
+
+      <div className="absolute -top-14 -left-2 lg:-left-10 z-50">
         <Link href="/"> 
         <a
-          className="clear block w-6 text-white"
+          className="clear block w-6 text-white fixed"
         >
           <svg viewBox="0 0 24 24" stroke="currentColor">
             <path
@@ -26,11 +28,10 @@ const About = () => {
         </a></Link>
       </div>
 
-      <section className="space-y-8 mt-12">
-        <p className="text-4xl tracking-tighter w-full max-w-4xl">
-          Hey - I'm Zimuzo Obi
+        <p className="text-4xl w-full max-w-4xl font-bold tracking-wide">
+          Zimuzo Obi
         </p>
-        <div className="text-gray-500 w-full lg:w-9/12 space-y-4">
+        <div className="w-full lg:w-9/12 space-y-4">
           <p>
             I'm a frontend developer, from Nigeria building applications
             focusing on creating great user interfaces and good user experiences
@@ -46,8 +47,8 @@ const About = () => {
         <a
           href="https://docs.google.com/document/d/10a6I0lJOP3cDdR3cy7X9NHNlZdXoE6nOC3xWAGGjds4/edit?usp=sharing"
           target="blank"
-          className="inline-block">
-          Check out my Resume
+          className="inline-block border-b">
+          Resume ➡
         </a>
       </section>
 
@@ -58,7 +59,7 @@ const About = () => {
           </p>
           <Image
             src="/images/underline.svg"
-            width="500px"
+            width="300px"
             height="40px"
             alt="A text underline svg"
             className="absolute bottom-0 pointer-events-none select-none"
