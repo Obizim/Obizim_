@@ -37,8 +37,7 @@ export default function Home() {
           <p className="text-2xl text-gray-500 w-max uppercase">See my works</p>
           <Underline styleClass="pointer-events-none select-none"/>
           <p className="text-lg sm:w-1/2">
-            I work on projects to practice stuffs I learn and here are some of
-            the featured projects.
+            I work on projects to better my skills and apply what I learnt. Here some of featured projects.
           </p>
         </div>
 

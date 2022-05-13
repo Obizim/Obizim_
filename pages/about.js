@@ -1,7 +1,7 @@
-import Image from "next/image";
 import Head from "next/head";
 import Contact from "../components/contact";
 import Link from "next/link";
+import { Underline } from "../components/icons";
 
 const About = () => {
   return (
@@ -12,77 +12,29 @@ const About = () => {
 
       <section className="space-y-8 mt-12 relative">
 
-      <div className="absolute -top-14 -left-2 lg:-left-10 z-50">
+      <div className="">
         <Link href="/"> 
-        <a
-          className="clear block w-6 text-white fixed"
-        >
-          <svg viewBox="0 0 24 24" stroke="currentColor">
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              d="M10 19l-7-7m0 0l7-7m-7 7h18"
-            ></path>
-          </svg>
+        <a className="clear block text-gray-500 underline">
+          Back to home
         </a></Link>
       </div>
-
-        <p className="text-4xl w-full max-w-4xl font-bold tracking-wide">
-          Zimuzo Obi
-        </p>
         <div className="w-full lg:w-9/12 space-y-4">
           <p>
-            I'm a frontend developer, from Nigeria building applications
-            focusing on creating great user interfaces and good user experiences
-            that are equally accesible. I strongly believe in keeping things
-            simple and minimal yet so functional.
+          I'm a frontend developer, from Nigeria building applications focusing on creating great user interfaces and good user experiences that are equally accessible. Web animations fascinate me a lot these days too. I go to the awwwards site or Gresnsock's showcase to see what people are building.
           </p>
-
+          <p>My technical skills include Html and CSS, Javascript, react, redux, nextjs, styled-components, tailwindcss, bootstrap and other js libraries</p>
           <p>
-            Tech aside, I love watching movies / tv series or reading books
-            (fictions mostly)
+            Tech aside, I love watching movies / tv series , reading books
+            (fictions mostly).
           </p>
+          <p>I'm currently open to freelance or full time positions, my inbox is always open.</p>
         </div>
-        <a
-          href="https://docs.google.com/document/d/10a6I0lJOP3cDdR3cy7X9NHNlZdXoE6nOC3xWAGGjds4/edit?usp=sharing"
+        <a href="https://docs.google.com/document/d/10a6I0lJOP3cDdR3cy7X9NHNlZdXoE6nOC3xWAGGjds4/edit?usp=sharing"
           target="blank"
           className="inline-block border-b">
-          Resume ➡
+          You can check out my resume here ➡
         </a>
       </section>
-
-      <section className="sm:mt-32 mt-24">
-        <div className="relative space-y-6">
-          <p className="text-2xl text-gray-300 w-max uppercase tracking-widest">
-            Skills
-          </p>
-          <Image
-            src="/images/underline.svg"
-            width="300px"
-            height="40px"
-            alt="A text underline svg"
-            className="absolute bottom-0 pointer-events-none select-none"
-          />
-          <p className="sm:w-1/2">
-            Over my journey on this path, I have learnt and acquired some
-            technical skills to work with.
-          </p>
-          <div className="mt-10">
-            <div className="list-disc list-inside flex flex-col space-y-4 sm:space-y-0 sm:flex-row sm:space-x-20">
-              <ul className="list-disc list-inside space-y-4">
-                <li>HTML / CSS (Sass)</li>
-                <li>Bootstrap / Tailwind Css</li>
-              </ul>
-              <ul className="list-disc list-inside space-y-4">
-                <li>JavaScript</li>
-                <li>React.js / Next.js</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <Contact />
     </div>
   );
