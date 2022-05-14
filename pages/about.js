@@ -20,7 +20,7 @@ const About = () => {
       </div>
         <div className="w-full lg:w-9/12 space-y-4">
           <p>
-          I'm a frontend developer, from Nigeria building applications focusing on creating great user interfaces and good user experiences that are equally accessible. Web animations fascinate me a lot these days too. I go to the awwwards site or Gresnsock's showcase to see what people are building.
+          I'm a front-end developer, from Nigeria building applications focusing on creating great user interfaces and good user experiences that are equally accessible. Web animations fascinate me a lot these days too. I go to the awwwards site or Gresnsock's showcase to see what people are building.
           </p>
           <p>My technical skills include Html and CSS, Javascript, react, redux, nextjs, styled-components, tailwindcss, bootstrap and other js libraries</p>
           <p>

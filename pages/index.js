@@ -19,7 +19,7 @@ export default function Home() {
       <section className="space-y-4">
         <h1 className="text-2xl text-gray-500 mt-8">Hello - I'm Zimuzo Obi</h1>
         <p className="text-4xl leading-none w-full max-w-2xl tracking-tighter">
-          frontend Developer from Nigeria, creating great & accesible user
+          front-end Developer from Nigeria, creating great & accesible user
           interfaces with sweet experiences.
         </p>
         <p className="text-lg text-gray-500 w-full max-w-2xl"> I try to write sometimes about my learning process, so check out my blog on <a
