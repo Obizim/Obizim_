@@ -11,20 +11,19 @@ function MyApp({ Component, pageProps, router }) {
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta content="Frontend Developer" name="description"></meta>
         <meta property="og:type" content="website"></meta>
         <meta property="og:site_name" content="Zimuzo Obi"></meta>
-        <meta name="description" content="Frontend Developer."></meta>
+        <meta property="og:description" content="Front-end Developer."/>
         <meta property="og:url" content="https://catcave.vercel.app/" />
         <meta property="og:image" content="https://catcave.vercel.app/images/opengraph.png" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Zimuzo Obi - Developer" />
         <meta name="twitter:site" content="@zimway_"></meta>
-        <meta property="og:description" content="Front-end Developer."/>
-        <meta property="twitter:title" content="Zimuzo Obi - Developer"></meta>
-        <meta property="twitter:card" content="summary_large_image"></meta>
-        <meta property="twitter:url" content="https://catcave.vercel.app/"></meta>
-        <meta property="twitter:description" content="Front-end Developer."></meta>
-        <meta property="twitter:image" content="https://catcave.vercel.app/images/opengraph.png"></meta>
+        <meta name="twitter:title" content="Zimuzo Obi - Developer"></meta>
+        <meta name="twitter:card" content="summary_large_image"></meta>
+        <meta name="twitter:description" content="Front-end Developer."></meta>
+        <meta name="twitter:image" content="https://catcave.vercel.app/images/opengraph.png"></meta>
         <title>Zimuzo Obi - Developer</title>
       </Head>
       <motion.div
