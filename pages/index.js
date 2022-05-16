@@ -11,18 +11,22 @@ export default function Home() {
 
   return (
     <div>
-      <img
-        src="/images/zim.jpg"
+      <div className="my-5 border-4 border-white max-w-max">
+      <Image
+        src="/images/zim.webp"
         alt="My face"
-        className="w-20 h-20 my-5 border-4 border-white filter grayscale"
-      />
+        width={72}
+        height={72}
+        className="filter grayscale object-cover"
+      /></div>
+
       <section className="space-y-4">
-        <h1 className="text-2xl text-gray-500 mt-8">Hello - I'm Zimuzo Obi</h1>
+        <h1 className="text-2xl text-gray-300 mt-8">Hello - I'm Zimuzo Obi</h1>
         <p className="text-4xl leading-none w-full max-w-2xl tracking-tighter">
           front-end Developer from Nigeria, creating great & accesible user
           interfaces with sweet experiences.
         </p>
-        <p className="text-lg text-gray-500 w-full max-w-2xl"> I try to write sometimes about my learning process, so check out my blog on <a
+        <p className="text-lg text-gray-300 w-full max-w-2xl"> I try to write sometimes about my learning process, so check out my blog on <a
             href="https://obizim.hashnode.dev"
             target="blank"
             className="inline-block text-white border-b"
@@ -34,7 +38,7 @@ export default function Home() {
 
       <section className="sm:mt-32 mt-24">
         <div className="relative space-y-6">
-          <p className="text-2xl text-gray-500 w-max uppercase">See my works</p>
+          <p className="text-2xl text-gray-300 w-max uppercase">See my works</p>
           <Underline styleClass="pointer-events-none select-none"/>
           <p className="text-lg sm:w-1/2">
             I work on projects to better my skills and apply what I learnt. Here some of featured projects.

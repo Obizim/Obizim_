@@ -24,13 +24,7 @@ body {
 }
 
 .number {
-  color: rgba(30, 30, 36, 5);
   padding: 5px;
   pointer-events: none;
   user-select: none;
-  text-shadow:
-   -1px -1px 0 rgba(107, 114, 128, 1),  
-    1px -1px 0 rgba(107, 114, 128, 1),
-    -1px 1px 0 rgba(107, 114, 128, 1),
-     1px 1px 0 rgba(107, 114, 128, 1);
 }

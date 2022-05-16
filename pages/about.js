@@ -14,7 +14,7 @@ const About = () => {
 
       <div className="">
         <Link href="/"> 
-        <a className="clear block text-gray-500 underline">
+        <a className="clear block text-gray-300 underline">
           Back to home
         </a></Link>
       </div>
@@ -30,7 +30,7 @@ const About = () => {
           <p>I'm currently open to freelance or full time positions, my inbox is always open.</p>
         </div>
         <a href="https://docs.google.com/document/d/10a6I0lJOP3cDdR3cy7X9NHNlZdXoE6nOC3xWAGGjds4/edit?usp=sharing"
-          target="blank"
+          target="blank" aria-label="My resume"
           className="inline-block border-b">
           You can check out my resume here ➡
         </a>

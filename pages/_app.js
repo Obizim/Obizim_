@@ -11,6 +11,7 @@ function MyApp({ Component, pageProps, router }) {
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="theme-color" content="rgba(0, 0, 0, 1)"></meta>
         <meta content="Frontend Developer" name="description"></meta>
         <meta property="og:type" content="website"></meta>
         <meta property="og:site_name" content="Zimuzo Obi"></meta>

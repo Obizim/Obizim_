@@ -6,7 +6,7 @@ module.exports = {
     extend: {
       backgroundColor: {
         'header-bg': 'rgba(30, 30, 36, 3)',
-        'burger-bg': '#16161a'
+        'burger-bg': '#0d0d0e'
       },
       borderColor: {
         header_bg: 'rgba(255, 255, 255, 0.1)'

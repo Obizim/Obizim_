@@ -3,40 +3,32 @@ import { Github, Linkedin, Mail, Twitter, Underline } from "../icons";
 const Contact = () => {
   return (
     <div className="sm:mt-32 mt-24 relative space-y-6">
-      <p className="text-2xl text-gray-500 w-max uppercase">Get in touch</p>
+      <p className="text-2xl text-gray-300 w-max uppercase">Get in touch</p>
       <Underline styleClass="pointer-events-none select-none"/>
       <p className="sm:w-1/2">I'm currently open for a new role or you want to connect with me or collaborate on projects together? Feel free to reach out to me.
       </p>
 
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center space-y-5 sm:space-y-0 py-10">
-        <a
-          href="mailto:obizimuzo@gmail.com"
-          className="text-lg flex items-center space-x-2"
-        >
+        <a href="mailto:obizimuzo@gmail.com"
+          className="text-lg flex items-center space-x-2" aria-label="Send a mail">
           <Mail/>
           <p>obizimuzo@gmail.com</p>
         </a>
 
         <div className="flex space-x-6">
-          <a
-            href="https://twitter.com/zimway_"
-            target="blank"
-            className="text-lg flex items-center space-x-2"
-          >
+          <a href="https://twitter.com/zimway_"
+            target="blank" aria-label="Twitter"
+            className="text-lg flex items-center space-x-2">
             <Twitter />
           </a>
-          <a
-            href="https://github.com/Obizim"
-            target="blank"
-            className="text-lg flex items-center space-x-2"
-          >
+          <a href="https://github.com/Obizim"
+            target="blank" aria-label="Github"
+            className="text-lg flex items-center space-x-2">
             <Github />
           </a>
-          <a
-            href="https://www.linkedin.com/in/obizim/"
-            target="blank"
-            className="text-lg flex items-center space-x-2"
-          >
+          <a href="https://www.linkedin.com/in/obizim/"
+            target="blank" aria-label="Linkedin"
+            className="text-lg flex items-center space-x-2">
            <Linkedin />
           </a>
         </div>
