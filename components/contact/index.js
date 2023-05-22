@@ -7,7 +7,7 @@ const Contact = () => {
       <Underline styleClass="pointer-events-none select-none"/>
       <p className="leading-relaxed">I am currently available for new opportunities and open to connecting or collaborating on projects. Please feel free to reach out to me.</p>
 
-      <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center space-y-5 sm:space-y-0 py-10">
+      <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center space-y-5 sm:space-y-0 py-2">
         <a href="mailto:obizimuzo@gmail.com"
           className="text-lg flex items-center space-x-2" aria-label="Send a mail">
           <Mail/>

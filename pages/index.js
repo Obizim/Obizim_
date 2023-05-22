@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Card from "../components/card";
 import useSWR from "swr";
 import Link from "next/link";
@@ -11,17 +10,7 @@ export default function Home() {
 
   return (
     <div>
-      {/* <div className="my-5 border-4 border-white max-w-max">
-      <Image
-        src="/images/zim.webp"
-        alt="My face"
-        width={72}
-        height={72}
-        className=" object-cover"
-      /></div> */}
-
       <section className="space-y-4">
-        {/* <h1 className="text-2xl text-gray-300 mt-8">Hello - I'm Zimuzo Obi</h1> */}
         <p className="text-4xl leading-tight w-full">
           Software frontend developer based in UK, creating great & accesible user
           interfaces.

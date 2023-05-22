@@ -8,7 +8,7 @@ const About = () => {
         <title>Zimuzo Obi - About me</title>
       </Head>
 
-      <section className="space-y-8 mt-12 relative">
+      <section className="space-y-8 relative">
 
       <div>
         <Link href="/"><a className="block text-gray-300 underline text-lg">Back to home</a></Link>
@@ -23,7 +23,7 @@ const About = () => {
         <a href="https://docs.google.com/document/d/1xqCc9B-x9uIXOfpNHci8aSyVNYy7N4v2s3nrzKKlUu8/edit?usp=sharing"
           target="blank" aria-label="My resume"
           className="inline-block border-b">
-          You can check out my resume here ➡</a>
+          Check out my resume here ➡</a>
           <p>You can often find me actively engaging on <a href="https://twitter.com/zimway_" target="blank" aria-label="twitter"
           className="inline-block border-b">Twitter</a> and occasionally on <a href="https://www.linkedin.com/in/obizim/" target="blank" aria-label="linkedin"
           className="inline-block border-b">LinkedIn</a>, so feel free to connect with me on those platforms. I'm always open to meeting new people and expanding my network.</p>
