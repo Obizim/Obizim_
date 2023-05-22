@@ -11,38 +11,32 @@ export default function Home() {
 
   return (
     <div>
-      <div className="my-5 border-4 border-white max-w-max">
+      {/* <div className="my-5 border-4 border-white max-w-max">
       <Image
         src="/images/zim.webp"
         alt="My face"
         width={72}
         height={72}
-        className="filter grayscale object-cover"
-      /></div>
+        className=" object-cover"
+      /></div> */}
 
       <section className="space-y-4">
-        <h1 className="text-2xl text-gray-300 mt-8">Hello - I'm Zimuzo Obi</h1>
-        <p className="text-4xl leading-none w-full max-w-2xl tracking-tighter">
-          front-end Developer from Nigeria, creating great & accesible user
-          interfaces with sweet experiences.
+        {/* <h1 className="text-2xl text-gray-300 mt-8">Hello - I'm Zimuzo Obi</h1> */}
+        <p className="text-4xl leading-tight w-full">
+          Software frontend developer based in UK, creating great & accesible user
+          interfaces.
         </p>
-        <p className="text-lg text-gray-300 w-full max-w-2xl"> I try to write sometimes about my learning process, so check out my blog on <a
-            href="https://obizim.hashnode.dev"
-            target="blank"
-            className="inline-block text-white border-b"
-          > hashnode</a> or <Link href="/about">
-            <a className="inline-block text-white border-b"> know more about me.</a>
+        <p className="text-lg text-gray-300 w-full max-w-2xl"> I'm Zimuzo Obi, a goal-oriented developer, bringing strong dedication to collaboration and a solutions-oriented approach to problem-solving. <Link href="/about">
+            <a className="inline-block text-white border-b">more about me.</a>
           </Link>
         </p>
       </section>
 
       <section className="sm:mt-32 mt-24">
         <div className="relative space-y-6">
-          <p className="text-2xl text-gray-300 w-max uppercase">See my works</p>
+          <p className="text-2xl text-gray-300 w-max capitalize">Featured Projects</p>
           <Underline styleClass="pointer-events-none select-none"/>
-          <p className="text-lg sm:w-1/2">
-            I work on projects to better my skills and apply what I learnt. Here some of featured projects.
-          </p>
+          <p className="text-lg">Here are a few examples of intriguing projects I have created:</p>
         </div>
 
         <div className="my-10">

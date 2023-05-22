@@ -2,8 +2,8 @@ import Footer from "../footer";
 
 const Layouts = ({ children }) => {
   return (
-    <div>
-      <main className="pt-20 wrapper mx-auto px-[15px]">{children}</main>
+    <div className="pt-20 max-w-screen-md mx-auto px-5">
+      <main>{children}</main>
       <Footer />
     </div>
   );

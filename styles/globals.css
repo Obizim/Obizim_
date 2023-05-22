@@ -1,7 +1,7 @@
 
 @font-face {
-  font-family: "Satoshi";
-  src: url("../public/fonts/Satoshi-Regular.ttf");
+  font-family: "Mona";
+  src: url("../public/fonts/MonoLisa-Regular.woff2");
   font-display: swap;
 }
 
@@ -14,17 +14,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Satoshi, sans-serif;
-  background-color: rgba(0, 0, 0, 1);
+  font-family: Mona, sans-serif;
+  background-color: rgb(20, 20, 20);
   color: #fff;
-}
-
-.wrapper {
-  max-width: 1000px;
-}
-
-.number {
-  padding: 5px;
-  pointer-events: none;
-  user-select: none;
 }

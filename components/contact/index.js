@@ -3,10 +3,9 @@ import { Github, Linkedin, Mail, Twitter, Underline } from "../icons";
 const Contact = () => {
   return (
     <div className="sm:mt-32 mt-24 relative space-y-6">
-      <p className="text-2xl text-gray-300 w-max uppercase">Get in touch</p>
+      <p className="text-2xl text-gray-300 w-max capitalize">Get in touch</p>
       <Underline styleClass="pointer-events-none select-none"/>
-      <p className="sm:w-1/2">I'm currently open for a new role or you want to connect with me or collaborate on projects together? Feel free to reach out to me.
-      </p>
+      <p className="leading-relaxed">I am currently available for new opportunities and open to connecting or collaborating on projects. Please feel free to reach out to me.</p>
 
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center space-y-5 sm:space-y-0 py-10">
         <a href="mailto:obizimuzo@gmail.com"

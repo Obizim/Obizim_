@@ -1,7 +1,5 @@
 import Head from "next/head";
-import Contact from "../components/contact";
 import Link from "next/link";
-import { Underline } from "../components/icons";
 
 const About = () => {
   return (
@@ -12,30 +10,25 @@ const About = () => {
 
       <section className="space-y-8 mt-12 relative">
 
-      <div className="">
-        <Link href="/"> 
-        <a className="clear block text-gray-300 underline">
-          Back to home
-        </a></Link>
+      <div>
+        <Link href="/"><a className="block text-gray-300 underline text-lg">Back to home</a></Link>
       </div>
-        <div className="w-full lg:w-9/12 space-y-4">
+        <div className="space-y-4 text-lg">
           <p>
-          I'm a front-end developer, from Nigeria building applications focusing on creating great user interfaces and good user experiences that are equally accessible. Web animations fascinate me a lot these days too. I go to the awwwards site or Gresnsock's showcase to see what people are building.
-          </p>
-          <p>My technical skills include Html and CSS, Javascript, react, redux, nextjs, styled-components, tailwindcss, bootstrap and other js libraries</p>
+          I'm a front-end developer, based in the UK building applications focusing on creating great user interfaces and good user experiences that are equally accessible. As a developer focused on achieving goals, I bring a dedicated approach to collaboration and resolving problems with a solutions-oriented mindset. I utilize a range of web design technologies to create tailored, customer-centric websites and designs.</p>
+          <p>Some of the technologies and tools I have worked with include HTML and CSS, Node/Expressjs Javascript, Typescript, React, Nextjs, Styled-components, TailwindCSS</p>
           <p>
-            Tech aside, I love watching movies / tv series , reading books
-            (fictions mostly).
+            Tech aside, I love watching movies/shows
           </p>
-          <p>I'm currently open to freelance or full time positions, my inbox is always open.</p>
-        </div>
-        <a href="https://docs.google.com/document/d/10a6I0lJOP3cDdR3cy7X9NHNlZdXoE6nOC3xWAGGjds4/edit?usp=sharing"
+        <a href="https://docs.google.com/document/d/1xqCc9B-x9uIXOfpNHci8aSyVNYy7N4v2s3nrzKKlUu8/edit?usp=sharing"
           target="blank" aria-label="My resume"
           className="inline-block border-b">
-          You can check out my resume here ➡
-        </a>
+          You can check out my resume here ➡</a>
+          <p>You can often find me actively engaging on <a href="https://twitter.com/zimway_" target="blank" aria-label="twitter"
+          className="inline-block border-b">Twitter</a> and occasionally on <a href="https://www.linkedin.com/in/obizim/" target="blank" aria-label="linkedin"
+          className="inline-block border-b">LinkedIn</a>, so feel free to connect with me on those platforms. I'm always open to meeting new people and expanding my network.</p>
+        </div>
       </section>
-      <Contact />
     </div>
   );
 };

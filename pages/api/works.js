@@ -1,15 +1,15 @@
 const works = [
   {
     id: 1,
-    title: "Flaxo Bookstore",
-    url: "https://flaxo-bookstore.vercel.app/",
-    description: "A ecommerce bookstore site with add to cart functionalities"
+    title: "CF (Blog)",
+    url: "https://cringe-flicks.vercel.app/",
+    description: "A blog site using Sanity.io for Content Management"
   },
   {
     id: 2,
-    title: "FilmMax",
+    title: "Gradlink",
     url: "https://filmmax.netlify.app/",
-    description: "A movie site that displays trending movies and tv shows"
+    description: "An online job portal application"
   },
   {
     id: 3,
