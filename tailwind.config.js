@@ -1,20 +1,18 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  mode: 'jit',
-  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
-  darkMode: false, // or 'media' or 'class'
+  content: [
+    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+  ],
   theme: {
     extend: {
-      backgroundColor: {
-        'header-bg': 'rgba(30, 30, 36, 3)',
-        'burger-bg': '#0d0d0e'
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+        'gradient-conic':
+          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
-      borderColor: {
-        header_bg: 'rgba(255, 255, 255, 0.1)'
-      }
     },
-  },
-  variants: {
-    extend: {},
   },
   plugins: [],
 }
