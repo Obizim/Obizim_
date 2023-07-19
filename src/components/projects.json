@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "title": "CF (Blog)",
+      "title": "Blog Site - Sanity.io (CMS)",
       "url": "https://cringe-flicks.vercel.app/",
       "description": "A blog site using Sanity.io for Content Management"
     },
