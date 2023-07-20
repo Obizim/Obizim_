@@ -11,11 +11,11 @@ export default function Home() {
           Software frontend developer based in UK, creating great & accesible user
           interfaces.
         </p>
-        <p className="w-full max-w-2xl"> I'm Zimuzo Obi, a goal-oriented developer, bringing strong dedication to collaboration and a solutions-oriented approach to problem-solving.
+        <p className="w-full max-w-2xl"> My name is Zimuzo Obi, a goal-oriented developer, bringing strong dedication to collaboration and a solutions-oriented approach to problem-solving.
         Higly attentive to details with strong work ethic as well as adept at implementing new technologies and techniques 
         </p>
         <div className="w-full max-w-2xl">I have experience with the following technologies and languages: 
-          <ul className='list-inside list-disc py-4'>
+          <ul className="list-inside list-disc py-4">
             <li>Languages: HTML, CSS (SCSS), Javascript, Typescript</li>
             <li>Frameworks/Tools: React.js, Next.js, Redux, Tailwind CSS, Bootstrap,Node, Express.js</li>
             <li>Databases: MongoDB, MySQL</li>
@@ -46,8 +46,8 @@ export default function Home() {
 
       <footer className="my-10 relative space-y-6">
           <p>I am actively seeking new opportunities and welcome connections or collaborations on projects. 
-            You can reach out to me on <a className='underline' href='https://twiiter.com/zimway_' target='_blank'>Twitter</a> or on <a className='underline' href='https://www.linkedin.com/in/obizim/' target='_blank'>Linkedin</a></p>
-            <p>You can <a className='underline' href="mailto:obizimuzo@gmail.com">message</a> me as well. Don't hesistate to reach out to me.</p>
+            You can reach out to me on <a className="underline" href="https://twitter.com/zimway_" target="_blank">Twitter</a> or on <a className="underline" href="https://www.linkedin.com/in/obizim/" target="_blank">LinkedIn</a></p>
+            <p>You can <a className="underline" href="mailto:obizimuzo@gmail.com">email</a> me as well. Feel free to contact me without any hesitation.</p>
             <p className="self-end"> &copy; Zimuzo Obi {new Date().getFullYear()}.</p>
       </footer>
     </main>
