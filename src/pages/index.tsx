@@ -31,7 +31,7 @@ export default function Home() {
 
         <div className="my-4">
           {works.map(data => (
-            <a href={data.url} target="blank" className="hover:bg-burger-bg relative border-b border-header_bg flex justify-between items-end py-4 px-2 cursor-pointer">
+            <a href={data.url} key={data.id} target="blank" className="hover:bg-burger-bg relative border-b border-header_bg flex justify-between items-end py-4 px-2 cursor-pointer">
             <div className="flex items-end space-x-2">
               <p className="self-start">0{data.id}.</p>
               <div className="space-y-2">
