@@ -43,7 +43,7 @@ export default function Home() {
       </section>
 
       <footer className="my-10 relative space-y-6">
-          <p>I am actively exploring new opportunities and am open to forming connections or engaging in collaborative projects. Please don't hesitate to reach out to me on <a className="underline" href="https://www.linkedin.com/in/obizim/" target="_blank">LinkedIn.</a> Additionally, feel free to send me an <a className="underline" href="mailto:obizimuzo@gmail.com">email;</a> I welcome any form of contact without reservation.</p>
+          <p>I am actively exploring new opportunities and am open to forming connections or engaging in collaborative projects. Please do not hesitate to reach out to me on <a className="underline" href="https://www.linkedin.com/in/obizim/" target="_blank">LinkedIn.</a> Additionally, feel free to send me an <a className="underline" href="mailto:obizimuzo@gmail.com">email;</a> I welcome any form of contact without reservation.</p>
           <p className="self-end"> &copy; Zimuzo Obi {new Date().getFullYear()}.</p>
       </footer>
     </main>
