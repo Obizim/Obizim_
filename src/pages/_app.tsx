@@ -12,15 +12,11 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta content="Software Developer" name="description"></meta>
         <meta property="og:type" content="website"></meta>
         <meta property="og:site_name" content="Zimuzo Obi"></meta>
-        <meta property="og:description" content="Software Developer."/>
-        <meta property="og:url" content="https://catcave.vercel.app/" />
-        <meta property="og:image" content="" />
-        <meta property="og:type" content="website" />
+        <meta property="og:description" content="Software Developer"/>
+        <meta property="og:url" content="https://obizimuzo.com/" />
         <meta property="og:title" content="Zimuzo Obi - Software Developer" />
         <meta name="twitter:title" content="Zimuzo Obi - Software Developer"></meta>
         <meta name="twitter:card" content="summary_large_image"></meta>
-        <meta name="twitter:description" content=""></meta>
-        <meta name="twitter:image" content=""></meta>
         <title>Zimuzo Obi - Software Developer</title>
       </Head>
   <Component {...pageProps} />

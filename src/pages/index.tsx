@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className={`pt-20 text-sm max-w-screen-md mx-auto px-5 leading-7 ${space_Mono.className}`}>
      <section className="space-y-4">
-        <p className="text-lg w-full italic">
+        <p className="text-lg w-full">
           Software frontend developer
         </p>
         <p className="w-full max-w-2xl"> My name is Zimuzo Obi, a goal-oriented developer, bringing strong dedication to collaboration and a solutions-oriented approach to problem-solving.
@@ -43,7 +43,7 @@ export default function Home() {
       </section>
 
       <footer className="my-10 relative space-y-6">
-          <p>I am actively exploring new opportunities and am open to forming connections or engaging in collaborative projects. Please do not hesitate to reach out to me on <a className="underline" href="https://www.linkedin.com/in/obizim/" target="_blank">LinkedIn.</a> Additionally, feel free to send me an <a className="underline" href="mailto:obizimuzo@gmail.com">email;</a> I welcome any form of contact without reservation.</p>
+          <p>I am actively exploring new opportunities and am open to forming connections or engaging in collaborative projects. Please do not hesitate to reach out to me on <a className="underline italic" href="https://www.linkedin.com/in/obizim/" target="_blank">LinkedIn.</a> Additionally, feel free to send me an <a className="underline italic" href="mailto:obizimuzo@gmail.com">email;</a> I welcome any form of contact without reservation.</p>
           <p className="self-end"> &copy; Zimuzo Obi {new Date().getFullYear()}.</p>
       </footer>
     </main>
